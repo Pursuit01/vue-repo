@@ -1,0 +1,29 @@
+{
+  "name": "shr-vue",
+  "version": "1.0.8",
+  "description": "",
+  "main": "dist/index.umd.js",
+  "type": "module",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "hong <hisunhongri@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.27"
+  }
+}
